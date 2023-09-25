@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+@import url("./styles/reset.scss");
+
+$font-family: "Rubik", sans-serif;
+$font-annotations: "Caveat", serif;
+$font-normal: 400;
+$font-medium: 500;
+$font-bold: 700;
+$font-size: 1rem;
+
+$clr-very-light-gray: hsl(228, 33%, 97%);
+$clr-light-grayish-blue: hsl(239, 57%, 85%);
+$clr-moderate-blue: hsl(238, 40%, 52%);
+$clr-grayish-blue: hsl(211, 10%, 45%);
+$clr-soft-red: hsl(358, 79%, 66%);
+
+body {
+  font-family: $font-family;
+  background-color: $clr-very-light-gray;
+}
+
+.ctr-likes {
+  background-color: $clr-very-light-gray;
+  & button {
+    background-color: transparent;
+    color: $clr-light-grayish-blue;
+  }
+
+  & p {
+    color: $clr-moderate-blue;
+  }
+}
+
+.ctr-comment-content {
+  & button {
+    color: $clr-moderate-blue;
+    font-weight: $font-medium;
+    font-size: 1rem;
+  }
+  & span {
+    color: $clr-moderate-blue;
+  }
+  & p {
+    color: $clr-grayish-blue;
+  }
+}
+
+.hide-modal {
+  visibility: hidden;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.not-selected {
+  background-color: #fff;
+}
+
+.selected {
+  background-color: hsl(238, 40%, 52%);
+  color: #fff;
+}
+
+strong {
+  font-weight: $font-medium;
+}
+
+textarea {
+  font-weight: $font-normal;
+  font-family: $font-family;
+}
+
+.annotation-class {
+  font-family: $font-annotations;
+  color: #8e8e9f;
+  font-size: 1.25rem;
+}

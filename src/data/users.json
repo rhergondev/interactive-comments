@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "usrId": 1,
+      "usrName": "amyrobson",
+      "usrAvatar": "image-amyrobson.png"
+    },
+    {
+      "usrId": 2,
+      "usrName": "juliusomo",
+      "usrAvatar": "image-juliusomo.png"
+    },
+    {
+      "usrId": 3,
+      "usrName": "maxblagun",
+      "usrAvatar": "image-maxblagun.png"
+    },
+    {
+      "usrId": 4,
+      "usrName": "ramsesmiron",
+      "usrAvatar": "image-ramsesmiron.png"
+    }
+  ]
+}

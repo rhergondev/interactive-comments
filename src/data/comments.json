@@ -1,0 +1,54 @@
+{
+  "comments": [
+    {
+      "id": "FillerComment1",
+      "date": 1695134597455,
+      "usrId": 4,
+      "likeCount": 2,
+      "text": "I recently visited a beautiful park in my city. The weather was perfect, and I enjoyed a relaxing day outdoors.",
+      "replies": [
+        {
+          "id": "FillerComment1-rep1",
+          "date": 1695221007036,
+          "usrId": 2,
+          "likeCount": 1,
+          "text": "That sounds like a lovely day! I'm glad you had a great time at the park.",
+          "replies": []
+        },
+        {
+          "id": "FillerComment1-rep2",
+          "date": 1695221107036,
+          "usrId": 1,
+          "likeCount": 3,
+          "text": "I wish I could have joined you. Parks are my favorite places to relax.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "FillerComment2",
+      "date": 1694961859193,
+      "usrId": 2,
+      "likeCount": 5,
+      "text": "Last weekend, I went on a hiking trip with my friends. We explored beautiful trails and even saw some wildlife!",
+      "replies": [
+        {
+          "id": "FillerComment2-rep1",
+          "date": 1694962859193,
+          "usrId": 3,
+          "likeCount": 2,
+          "text": "Hiking trips are amazing! I love connecting with nature and the sense of adventure they bring.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "FillerComment3",
+      "date": 1695307499236,
+      "usrId": 1,
+      "likeCount": 3,
+      "text": "I remember my last camping trip under the starry night sky. It was so peaceful and filled with stories by the campfire.",
+      "replies": []
+    }
+  ]
+}
